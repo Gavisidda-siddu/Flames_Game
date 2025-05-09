@@ -7,7 +7,6 @@ The result does not reflect real-life relationships or emotions. Real relationsh
 
 ✨ What is FLAMES?
 FLAMES is an acronym that stands for:
-
 F – Friends
 L – Love
 A – Affection
@@ -17,11 +16,19 @@ S – Siblings
 
 The game works by:
 
+<<<<<<< HEAD
 Taking two names as input.
 Removing common characters.
 Counting the total remaining characters.
 Using that count to eliminate letters from “FLAMES” in a cycle until one remains.
 The final letter determines the result.
+=======
+> Taking two names as input.
+> Removing common characters.
+> Counting the total remaining characters.
+> Using that count to eliminate letters from “FLAMES” in a cycle until one remains.
+> The final letter determines the result.
+>>>>>>> origin/main
 
 🚀 Features
 Clean and interactive UI
@@ -32,4 +39,8 @@ No third-party libraries used
 🛠️ Built With
 HTML – Markup structure
 CSS – Styling and layout
+<<<<<<< HEAD
 JavaScript – Relationship logic
+=======
+JavaScript – Relationship logic
+>>>>>>> origin/main
