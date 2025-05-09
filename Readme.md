@@ -23,12 +23,12 @@ Using that count to eliminate letters from “FLAMES” in a cycle until one rem
 The final letter determines the result.
 
 🚀 Features
-Clean and interactive UI
-Instant results with a single click
-Nostalgic experience built with modern web tech
-No third-party libraries used
+Clean and interactive UI. 
+Instant results with a single click. 
+Nostalgic experience built with modern web tech. 
+No third-party libraries used.
 
 🛠️ Built With
-HTML – Markup structure
-CSS – Styling and layout
-JavaScript – Relationship logic
+HTML – Markup structur. 
+CSS – Styling and layout. 
+JavaScript – Relationship logic.
