@@ -2,7 +2,7 @@ function calculateFLAMES() {
     let name1 = document.getElementById('name1').value.toLowerCase().replace(/\s/g, '');
     let name2 = document.getElementById('name2').value.toLowerCase().replace(/\s/g, '');
 
-    // Remove common letters
+  
     let name1Arr = name1.split('');
     let name2Arr = name2.split('');
 
@@ -11,30 +11,27 @@ function calculateFLAMES() {
             if (name1Arr[i] === name2Arr[j]) {
                 name1Arr.splice(i, 1);
                 name2Arr.splice(j, 1);
-                i--;  // Adjust index after removal
+                i--; 
                 break;
             }
         }
     }
 
     let remainingCount = name1Arr.length + name2Arr.length;
-    //console.log(remainingCount);
-
-    // FLAMES list
+    
     let flames = ['F', 'L', 'A', 'M', 'E', 'S'];
     let index = 0;
 
     while (flames.length > 1) {
-        // We start counting from the current index and wrap around using modulo
-        index = (index + remainingCount - 1) % flames.length;  // Find the index to remove
-        flames.splice(index, 1);  // Remove that element
+    
+        index = (index + remainingCount - 1) % flames.length;  
+        flames.splice(index, 1);  
         index=0;
-       // console.log(flames);
-    }
+       
 
     let relationship = flames[0];
 
-    // Output result
+    
     let relationshipResult;
     switch (relationship) {
         case 'F':
