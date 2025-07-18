@@ -58,3 +58,4 @@ function calculateFLAMES() {
 
     document.getElementById('result').innerText = `Relationship: ${relationshipResult}`;
 }
+}
